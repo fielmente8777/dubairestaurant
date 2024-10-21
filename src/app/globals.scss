@@ -32,10 +32,21 @@
   }
 }
 
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "Helvetica";
+}
+
 body {
   // line-height: 1.5;
   // color: var(--white);
   background: #f5f5f5;
+  font-family: "Helvetica";
 }
 
 body {

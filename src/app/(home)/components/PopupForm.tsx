@@ -1,12 +1,9 @@
 "use client";
-import Image from "next/image";
 import { useEffect, useState, useCallback, useRef } from "react";
-import popupimg from "../../../../public/images/popup_img.webp";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import { countries } from "@/utils/countryCode";
 import React from "react";
-import { Form } from "@/components";
+import  Form  from "@/components/Form";
 import { IoCloseOutline } from "react-icons/io5";
 const PopupForm = ({
   setShowModal,

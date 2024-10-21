@@ -7,7 +7,6 @@ import Image from "next/image";
 import Logo from "../../../public/images/logo.webp";
 import { TiArrowSortedDown } from "react-icons/ti";
 
-import { FaPhone } from "react-icons/fa6";
 import MobileNav from "./MobileNav";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";

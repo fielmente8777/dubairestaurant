@@ -1,7 +1,6 @@
 import Link from "next/link";
-import Container from "./Container";
-import Section from "./Section";
 import Image from "next/image";
+import { Container, Section } from "@/app/(home)/components";
 
 interface data_type {
   title: string;
