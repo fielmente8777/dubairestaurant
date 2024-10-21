@@ -1,0 +1,231 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+:root {
+  scroll-behavior: smooth;
+
+  --white: #ffffff;
+  --black: #1d1d1d;
+  --shadow: 0px 0px 20px rgb(153, 152, 152);
+  --primary-orange: #f26633;
+  --gradient: linear-gradient(120deg, #e5f2ef, #e4f2ee, #fffaee) --gradient-second:
+    linear-gradient(120deg, #e5f2ef, #e4f2ee, #ffffff);
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    @apply appearance-none;
+    margin: 0;
+  }
+
+  .no-spinner {
+    @apply appearance-none;
+  }
+}
+
+body {
+  // line-height: 1.5;
+  // color: var(--white);
+  background: #f5f5f5;
+}
+
+body {
+  &::-webkit-scrollbar {
+    inline-size: 0.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #1d1d1d;
+    border-radius: 0.5rem;
+    margin-block: 0.2rem;
+    border: #1d1d1dbf 1px solid;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #fffaee;
+    border-radius: 0.6rem;
+    border: #1d1d1d 1px solid;
+  }
+}
+
+.bg-gradient {
+  // background: var(--gradient)
+  background: linear-gradient(180deg, #e5f2ef, #e4f2ee, #fffaee, #ffffff);
+}
+
+.bg-gradient-second {
+  /* // background: var(--gradient-second) */
+  background: linear-gradient(#ffffff, #ecf2fb, #e4f2ee);
+}
+
+.max-width {
+  max-inline-size: 1280px;
+  inline-size: 100%;
+  margin-inline: auto;
+
+  @media (width<=1280px) {
+    padding: 0 1.7rem;
+  }
+}
+
+
+
+.blog-d-container a {
+  color: rgb(68, 68, 246);
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.blog-d-container {
+  div {
+    img {
+      max-inline-size: 100%;
+      inline-size: max-content;
+      display: block;
+      margin: 1rem 0;
+      border-radius: 1rem;
+    }
+  }
+}
+
+.accordclass {
+  ul {
+    list-style: disc !important;
+  }
+
+  ol {
+    list-style: decimal !important;
+  }
+  b {
+    color: #1d1d1d;
+    font-weight: 700;
+  }
+}
+
+.box_shadow {
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: none;
+  }
+}
+.imgrotate {
+  transform: skew(180deg);
+}
+
+.pagination {
+  .swiper-pagination-bullet {
+    background-color: #ffffff;
+    inline-size: 0.5rem;
+    block-size: 0.5rem;
+    opacity: 1;
+    border-radius: 50%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #f26633;
+    inline-size: 1rem;
+    block-size: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+
+.bg-imgclass {
+  background-image: url("/icon/Background.png");
+  background-size: 41.5rem;
+  background-repeat: no-repeat;
+  background-position: 48.5% 50%;
+  @media (width<=768px) {
+    background-size: 17.5rem;
+    background-position: 100% 10%;
+  }
+}
+
+.bullets-Portfolio {
+  .swiper-pagination-bullet {
+    border: none;
+    background-color: #ffffff;
+    inline-size: 0.5rem;
+    block-size: 0.5rem;
+    opacity: 1;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #f26633;
+    inline-size: 1rem;
+    block-size: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+
+.page_date {
+  h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: start;
+    padding-block: 0.8rem;
+    @media (width<=768px) {
+      font-size: 1.89rem;
+      line-height: 2.5rem;
+    }
+  }
+  h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    color: #1d1d1d;
+    padding-block: 0.5rem;
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1d;
+    padding-block: 0.5rem;
+    @media (width<=768px) {
+      font-size: 1rem;
+      line-height: 1.8rem;
+    }
+  }
+  ul {
+    padding-inline-start: 2.5rem;
+    padding-block: 0.5rem;
+    @media (width<=768px) {
+      padding-inline-start: 1.5rem;
+    }
+    li {
+      list-style: disc;
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      font-weight: 400;
+      font-style: normal;
+      color: #1d1d1d;
+      @media (width<=768px) {
+        font-size: 1rem;
+        line-height: 1.8rem;
+      }
+    }
+  }
+}
+
+/* // usa page */
+.heading {
+  strong {
+    color: #f26633;
+  }
+}
