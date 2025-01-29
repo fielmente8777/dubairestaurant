@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 function Whatsapp() {
   return (
-    <div className="fixed bottom-10 lg:right-10 right-4 z-20 cursor-pointer">
+    <div className="fixed bottom-24 lg:left-10 left-4 z-20 cursor-pointer">
       <Link
         href="https://wa.me/919501868775?text=Hello+I+would+like+to+know+more+about+Fielmente+Hospitality+Marketing+Agency"
         target="_blank"
@@ -20,4 +20,3 @@ function Whatsapp() {
 
 export default Whatsapp;
 
-// https://api.whatsapp.com/send/?phone=919501868775&text=Hello+I+would+like+to+know+more+about+Fielmente+Hospitality+Marketing+Agency%21&type=phone_number&app_absent=0
