@@ -8,7 +8,7 @@ import LandingHeader from "@/components/Header/LandingHeader";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Hotel and restaurant marketing company in usa | fielmente",
+  title: "Hotel and restaurant marketing company in dubai | fielmente",
   description:
     "We're the best hospitality marketing agency in India serving hotels, resorts restaurants, and cloud kitchens for more than 10 years.",
   keywords:"",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   authors: [{ name: "Fielmente", url: "https://https://dubai.fielmente.com/" }],
   openGraph: {
-    title: "Hotel and restaurant marketing company in usa | fielmente",
+    title: "Hotel and restaurant marketing company in dubai | fielmente",
     description:
       "We're the best hospitality marketing agency in India serving hotels, resorts restaurants, and cloud kitchens for more than 10 years.",
     url: "https://https://dubai.fielmente.com/",
