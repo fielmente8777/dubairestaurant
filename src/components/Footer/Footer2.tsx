@@ -2,12 +2,12 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from "next/navigation";
-import PopupForm from "@/app/(home)/components/PopupForm";
 import Container from '../../app/(home)/components/Container';
 import { FillFacebook, FillLinkedin, FillTwitter, Google, TrustPiolet } from "@/utils/icons";
 import { AiFillInstagram } from "react-icons/ai";
 import axios from "axios";
 import { useRouter } from "next/navigation";
+import PopupForm from "../PopupForm";
 
 
 function Footer2() {
