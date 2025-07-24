@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import Logo from "../../../public/images/footer-fielmente.webp";
 import { usePathname } from "next/navigation";
 import PopupForm from "@/app/(home)/components/PopupForm";
 import Container from '../../app/(home)/components/Container';
@@ -15,7 +13,6 @@ import { useRouter } from "next/navigation";
 function Footer2() {
   const pathname = usePathname();
 
-  const pathName = usePathname();
   const router = useRouter();
   const currentYear = new Date().getFullYear();
   const [showModal, setShowModal] = useState(false);
@@ -176,6 +173,10 @@ function Footer2() {
     },
   ];
   // const currentYear = new Date().getFullYear();
+
+  if(pathname === "/thank-you/"){
+    return null;
+  }
 
   return (
     <>

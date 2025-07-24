@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState, useCallback, useRef } from "react";
 import axios from "axios";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 import  Form  from "@/components/Form";
 import { IoCloseOutline } from "react-icons/io5";
@@ -148,6 +148,10 @@ const PopupForm = ({
     },
   ];
 
+  const pathname = usePathname();
+  if(pathname === '/thank-you/'){
+    return null
+  }
   return (
     <>
       {showModal && (

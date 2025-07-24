@@ -6,6 +6,7 @@ import Call from "@/components/Call";
 import Footer2 from "@/components/Footer/Footer2";
 import LandingHeader from "@/components/Header/LandingHeader";
 import Script from "next/script";
+import RenderChatBot from "@/components/chatbot/RenderChatBot";
 
 export const metadata: Metadata = {
   title: "Hotel and restaurant marketing company in dubai | fielmente",
@@ -53,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <Script id="zoho-init" strategy="afterInteractive">
+        {/* <Script id="zoho-init" strategy="afterInteractive">
           {`
           window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}
           `}
@@ -63,10 +64,11 @@ export default function RootLayout({
           src="https://salesiq.zohopublic.in/widget?wc=siq1a53c0a073d244118c9a52feae425ec200f5a91c3949296330c5edf2c3a6e668"
           strategy="afterInteractive"
           defer
-        />
+        /> */}
       </head>
       <body suppressHydrationWarning={true}>
-        <LandingHeader />
+        <RenderChatBot />
+        <NavBar />
         {children}
         <Footer2 />
         <Whatsapp />

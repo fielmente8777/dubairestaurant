@@ -12,7 +12,7 @@ const Form = () => {
   const [userEmail, setUserEmail] = useState("");
   const [userMessage, setUserMessage] = useState("");
   const [userPhone, setUserPhone] = useState("");
-  const [countryCode, setCountryCode] = useState("+91"); // Default country code
+  const [countryCode, setCountryCode] = useState("+971"); // Default country code
   const [formRes, setFormRes] = useState(false);
   const [emailErrorMessage, setEmailErrorMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
