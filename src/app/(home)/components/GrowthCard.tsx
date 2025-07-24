@@ -5,7 +5,7 @@ import Section from "./Section";
 import Link from "next/link";
 import { GrowthCardProps } from "../types";
 import { useState } from "react";
-import PopupForm from "./PopupForm";
+import PopupForm from "@/components/PopupForm";
 
 const GrowthCard: React.FC<GrowthCardProps> = ({
   img,

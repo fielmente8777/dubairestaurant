@@ -10,9 +10,10 @@ import { BannerProps, DataType, GrowthCardProps } from "./types";
 
 const page = () => {
   const bannerData: BannerProps = {
-    img: "/images/usa_flag.webp",
+    img: "/images/Dubai_flag.webp",
     title: "Leading Hotel Marketing Company",
-    heading: `Boost hotel <strong>bookings</strong> and brand visibility with a top Hotel Marketing Company in the <strong>USA.</strong>`,
+    heading: `Boost your  <strong>hotel's growth</strong> with proven strategies and advanced <strong>marketing solutions</strong> for <strong>Dubai's</strong> dynamic market`,
+    // heading: `Boost hotel <strong>bookings</strong> and brand visibility with a top Hotel Marketing Company in the <strong>Dubai.</strong>`,
     link: true,
   };
   const growthcardData: GrowthCardProps = {
@@ -25,13 +26,13 @@ const page = () => {
 
   const aboutUsData: DataType = {
     title: "We are the Best Hotel Marketing Company in the",
-    span: "USA",
+    span: "Dubai",
     description:
-      "Welcome to Fielmente – Your Top Choice for Revenue Management and Hotel Digital Marketing in the USA. Elevate your hotel business with our expert services. As a leading Revenue Management company globally, Hospitality Minds specializes in tailored Hotel Digital Marketing solutions designed for success in the dynamic US market.",
-    img: "/images/usa.webp",
+      "Welcome to Fielmente – your top choice for Revenue Management and Hotel Digital Marketing in Dubai. Elevate your hotel business with expert solutions. As a global leader in Revenue Management, Fielmente offers innovative Hotel Digital Marketing services designed to thrive in Dubai’s competitive market.",
+    img: "/images/Dubai.webp",
     description2: [
-      "Our certified experts, recognized as a premier digital marketing agency in the USA, bring extensive experience to ensure your hotel thrives in the competitive landscape. Benefit from meticulous OTA management, advanced Channel Manager services for hotels, and comprehensive Digital Marketing strategies covering SEO, SEM, and Online Reputation Management. We also offer captivating website development and detailed digital audits to give you a competitive edge.",
-      "Elevate your hotel's success – Choose Fielmente today, your trusted partner as a hotel marketing agency and among the top hotel marketing companies in the US specializing in revenue management for hotels.",
+      "Our certified experts, recognized as a premier digital marketing agency in Dubai, bring extensive experience to ensure your hotel excels in the hospitality landscape. Our services include meticulous OTA management, advanced Channel Manager solutions, and comprehensive Digital Marketing strategies such as SEO, SEM, and Online Reputation Management. Additionally, we provide captivating website development and detailed digital audits for a competitive edge.",
+      "Elevate your hotel’s success – Choose Fielmente, your trusted partner for hotel marketing and revenue management in Dubai.",
     ],
   };
   return (
