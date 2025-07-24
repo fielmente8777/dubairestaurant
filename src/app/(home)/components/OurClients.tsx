@@ -42,7 +42,7 @@ function OurClients({
               {heading}
             </h2>
           )}
-          <div className="mt-16">
+          <div className="md:mt-16 mt-6">
             <div>
               <Swiper
                 modules={[Autoplay, Grid]}
