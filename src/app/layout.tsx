@@ -1,12 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.scss";
-import NavBar from "@/components/Header/NavBar";
-import Whatsapp from "@/components/WhatsApp";
 import Call from "@/components/Call";
 import Footer2 from "@/components/Footer/Footer2";
-import Script from "next/script";
-import RenderChatBot from "@/components/chatbot/RenderChatBot";
+import NavBar from "@/components/Header/NavBar";
+import Whatsapp from "@/components/WhatsApp";
 import Salesiq from "@/components/zohochatbot/Salesiq";
+import type { Metadata } from "next";
+import "./globals.scss";
 
 export const metadata: Metadata = {
   title: "Hotel and restaurant marketing company in dubai | fielmente",
