@@ -36,7 +36,7 @@ const page = () => {
     ],
   };
   return (
-    <main className="bg-white">
+    <main className="bg-white md:mt-16 mt-24">
       <Banner {...bannerData} />
       <AboutUs {...aboutUsData} />
       <OurServices />
