@@ -7,12 +7,12 @@ import GlobalLeadPopup from "@/components/GlobalLeadPopup";
 import "./globals.scss";
 
 export const metadata: Metadata = {
-  title: "Hotel and restaurant marketing company in dubai | fielmente",
+  title: "Hotel & Restaurant Marketing Agency in Dubai | Fielmente",
   description:
-    "We're the best hospitality marketing agency in India serving hotels, resorts restaurants, and cloud kitchens for more than 10 years.",
+    "Hospitality marketing for hotels and restaurants in Dubai. Explore SEO, Google Ads and social media services with Fielmente and discuss your goals.",
   keywords: "",
   alternates: {
-    canonical: "https://https://dubai.fielmente.com/",
+    canonical: "https://dubai.fielmente.com/",
   },
   robots: {
     index: true,
@@ -25,19 +25,19 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  authors: [{ name: "Fielmente", url: "https://https://dubai.fielmente.com/" }],
+  authors: [{ name: "Fielmente", url: "https://dubai.fielmente.com/" }],
   openGraph: {
-    title: "Hotel and restaurant marketing company in dubai | fielmente",
+    title: "Hotel & Restaurant Marketing Agency in Dubai | Fielmente",
     description:
-      "We're the best hospitality marketing agency in India serving hotels, resorts restaurants, and cloud kitchens for more than 10 years.",
-    url: "https://https://dubai.fielmente.com/",
+      "Hospitality marketing for hotels and restaurants in Dubai. Explore SEO, Google Ads and social media services with Fielmente and discuss your goals.",
+    url: "https://dubai.fielmente.com/",
     siteName: "dubai.Fielmente",
-    locale: "en_IN",
+    locale: "en_AE",
     type: "website",
 
     images: [
       {
-        url: "https://https://dubai.fielmente.com/images/Fielmente-og.png",
+        url: "https://dubai.fielmente.com/images/Fielmente-og.png",
         width: 1200,
       },
     ],
