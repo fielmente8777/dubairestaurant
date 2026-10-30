@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 
 import { FillMail, FillMessage, FillPhone, FillUser } from "@/utils/icons";
 import axios from "axios";
+import { markLeadSubmitted } from "@/lib/leadPrompt";
 import React, { useState } from "react";
 import { countries } from "@/utils/countryCode";
 
@@ -71,7 +72,8 @@ const Form = () => {
         }
       );
 
-      if (data.success) {
+      if (data?.Status === true) {
+        markLeadSubmitted();
         setFormRes(true);
         setUserName("");
         setUserEmail("");

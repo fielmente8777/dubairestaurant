@@ -3,6 +3,7 @@ import NavBar from "@/components/Header/NavBar";
 import Whatsapp from "@/components/WhatsApp";
 import Salesiq from "@/components/zohochatbot/Salesiq";
 import type { Metadata } from "next";
+import GlobalLeadPopup from "@/components/GlobalLeadPopup";
 import "./globals.scss";
 
 export const metadata: Metadata = {
@@ -59,6 +60,7 @@ export default function RootLayout({
         {children}
         <Footer2 />
         <Whatsapp />
+        <GlobalLeadPopup />
       </body>
     </html>
   );
